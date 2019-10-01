@@ -32,19 +32,19 @@ export default {
 
 <style scoped lang="scss">
 @keyframes nav-show {
-    0% {
-        transform: translateY(-10px);
-        opacity: 0;
-    }
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
 
-    90% {
-        opacity: 1;
-    }
+  90% {
+    opacity: 1;
+  }
 
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .nav {
@@ -83,7 +83,7 @@ export default {
       top: 44px;
       width: 200px;
       background-color: #fff;
-      box-shadow: 0 0 20px 0 rgba(28,36,44,.12);
+      box-shadow: 0 0 20px 0 rgba(28, 36, 44, 0.12);
       border-radius: 2px;
       padding: 4px 0;
 

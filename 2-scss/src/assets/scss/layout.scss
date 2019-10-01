@@ -3,24 +3,24 @@
  */
 
 html {
-    font:
-        12px/1
-        PingFang SC,
-        Hiragino Sans GB,
-        Heiti SC,
-        Microsoft YaHei,
-        WenQuanYi Micro Hei,
-        Helvetica,
-        Arial,
-        sans-serif;
-    background-color: $page-main-bg-color;
-    color: $page-main-color;
+  font:
+    12px/1
+    PingFang SC,
+    Hiragino Sans GB,
+    Heiti SC,
+    Microsoft YaHei,
+    WenQuanYi Micro Hei,
+    Helvetica,
+    Arial,
+    sans-serif;
+  background-color: $page-main-bg-color;
+  color: $page-main-color;
 }
 
 // 不习惯列表有序号
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 // 不习惯自带边距
@@ -31,6 +31,6 @@ h2,
 h3,
 h4,
 h5 {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
