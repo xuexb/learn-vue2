@@ -1,4 +1,10 @@
 module.exports = {
+  pluginOptions: {
+    lintStyleOnBuild: true,
+    stylelint: {
+      fix: true,
+    },
+  },
   css: {
     loaderOptions: {
       // 引入通用变量
