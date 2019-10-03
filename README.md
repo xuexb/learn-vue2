@@ -7,7 +7,7 @@
 - [x] [1. 使用周边工具介绍](./1-info/)
 - [x] [2. 使用 Scss 开发样式](./2-scss/)
 - [x] [3. 使用 Vue Router](./3-router/)
-- [ ] 使用 Vuex
+- [x] [4. 使用 Vuex](./4-vuex/)
 - [ ] 使用 Vue I18n
 - [ ] 使用 Layout
 - [ ] 使用 Vue Router + Vue Meta 实现 SEO 需求
