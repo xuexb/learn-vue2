@@ -1,6 +1,6 @@
 # 使用 Vue Router
 
-本示例是使用 [Vue Router](https://router.vuejs.org/) 完成 Vue.js 页面路由可能。
+本示例是使用 [Vue Router](https://router.vuejs.org/) 完成 Vue.js 页面路由功能。
 
 ## 目录规范
 
