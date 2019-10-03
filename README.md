@@ -8,7 +8,7 @@
 - [x] [2. 使用 Scss 开发样式](./2-scss/)
 - [x] [3. 使用 Vue Router](./3-router/)
 - [x] [4. 使用 Vuex](./4-vuex/)
-- [ ] 使用 Vue I18n
+- [x] [5. 使用 Vue I18n](./5-i18n/)
 - [ ] 使用 Layout
 - [ ] 使用 Vue Router + Vue Meta 实现 SEO 需求
 - [ ] 使用 Vue Router + Vuex 实现 Preload 全局数据
