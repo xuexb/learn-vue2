@@ -9,6 +9,6 @@
     - `layout.scss` - 页面布局，一般用于页面整体的一些设置
     - `common.scss` - 全局常用、通用的一些样式，如：栅格化、常用类等
     - `public.scss` - 样式入口文件，在 `App.vue` 中加载（不使用作用域模式）
-2. 所有通用、页面整体、变量全在 `src/assets/scss/*.scss` 中写，页面、组件（ `.vue` 文件）自身单独的样式由各自文件内样式完成，如：`<style lang="scss" scoped>` - 私有作用域模式，不会污染其他组件，如果需要某个选择器不加作用域可以使用 `/deep/ selector {}` 定义样式
+2. 所有通用、页面整体、变量全在 `src/assets/scss/*.scss` 中写，页面、组件（ `.vue` 文件）自身单独的样式由各自文件内样式完成，如：`<style lang="scss" scoped>` - 私有作用域模式，不会污染其他组件，如果需要某个选择器不加作用域可以使用 `/deep/ selector {}` 定义样式，其他 `scoped` 说明请看官方介绍：[Scoped CSS](https://vue-loader.vuejs.org/zh/guide/scoped-css.html)
 3. 统一由 `.browserslistrc` 配置浏览器兼容处理
 4. 使用 stylelint 验证样式规范
