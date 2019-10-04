@@ -29,7 +29,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "~@/assets/scss/public";
+@import "@/assets/scss/public";
 </style>
 
 <style lang="scss" scoped>
