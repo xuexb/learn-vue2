@@ -15,9 +15,3 @@ export const locales = [
  */
 export const locale = 'zh-cn';
 
-/**
- * 站点链接
- *
- * @type {string}
- */
-export const url = 'https://xuexb.com';
