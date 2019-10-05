@@ -42,6 +42,18 @@ i18n 需要提示以**对象**（`{}`）的数据为国际化数据，并且由�
 
 而语言包内的实现是全部在 `index.js` 中写，还是由 `index.js` 加载不同的 `*.json` 文件，取决于你。但这里强烈推荐使用 `*.json` 存放语言包，因为可以无缝的接入一些翻译平台（当然需要开发一些接入插件，这是后话），如：[Crowdin](http://crowdin.com/) 。
 
+**注意：语种尽量使用全小写，并且格式为 `语言-地区` 格式，参考：**
+
+- 语言标识参考：<https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>
+- 地区标识参考：<https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2> ，但地区推荐使用小写，在页面输出各种属性时就当使用程序转换
+
+链接如：
+
+- 推荐：<https://xuexb.com/zh-cn/path/>
+- 推荐：<https://xuexb.com/zh/path/>
+- 不推荐：<https://xuexb.com/zh-CN/path/>
+- 不推荐：<https://xuexb.com/ZH/path/>
+
 ## 语言容错
 
 处理修正大小写等容错。
