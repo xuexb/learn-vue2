@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "indentation": 2,
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "selector-class-pattern": ["^(([a-z0-9]+(-[a-z0-9]+)*)|el\\-(.+))$", {
+        "message": "Please name CSS classes like this: '.my-class-name'",
+        "severity": "warning"
+    }],
+    "selector-id-pattern": ["^(([a-z0-9]+(-[a-z0-9]+)*)|el\\-(.+))$", {
+        "message": "Please name CSS ID like this: '#my-id-name'",
+        "severity": "warning"
+    }],
+    "no-descending-specificity": null
+  }
+}
