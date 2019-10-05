@@ -1,0 +1,23 @@
+/**
+ * 重置样式，继承于 normalize.css ，可以在此基础上自行根据项目扩展
+ */
+
+@import '~normalize.css';
+
+// 不习惯列表有序号
+ul,
+ol {
+  list-style: none;
+}
+
+// 不习惯自带边距
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+}

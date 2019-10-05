@@ -1,0 +1,44 @@
+/**
+ * 页面常用样式
+ */
+
+.c-page-width {
+  width: $page-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// 常用间距
+@each $key in 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100 {
+  .mt#{$key} {
+    margin-top: #{$key}px;
+  }
+
+  .mr#{$key} {
+    margin-right: #{$key}px;
+  }
+
+  .mb#{$key} {
+    margin-bottom: #{$key}px;
+  }
+
+  .ml#{$key} {
+    margin-left: #{$key}px;
+  }
+
+  .pt#{$key} {
+    padding-top: #{$key}px;
+  }
+
+  .pr#{$key} {
+    padding-right: #{$key}px;
+  }
+
+  .pb#{$key} {
+    padding-bottom: #{$key}px;
+  }
+
+  .pl#{$key} {
+    padding-left: #{$key}px;
+  }
+}
