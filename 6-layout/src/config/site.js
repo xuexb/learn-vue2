@@ -14,4 +14,3 @@ export const locales = [
  * @type {string}
  */
 export const locale = 'zh-cn';
-

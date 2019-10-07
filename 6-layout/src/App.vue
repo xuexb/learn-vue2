@@ -10,11 +10,13 @@
 <script>
 import DefaultLayout from '@/layouts/Default.vue';
 import FullWidthLayout from '@/layouts/FullWidth.vue';
+import FullWidthSearch from '@/layouts/FullWidthSearch.vue';
 
 export default {
   components: {
     Default: DefaultLayout,
     FullWidth: FullWidthLayout,
+    FullWidthSearch,
   },
 
   computed: {
