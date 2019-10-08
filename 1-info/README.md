@@ -11,7 +11,6 @@
 - [Autoprefixer](https://github.com/postcss/autoprefixer) - 使用 Autoprefixer 提供浏览器兼容处理，使用 `.browserslistrc` 作为配置文件
 - [Git gitignore](https://git-scm.com/docs/gitignore) - 使用 `.gitignore` 忽略 Git 提交文件
 - [Vuex](http://vuex.vuejs.org/) - 使用 Vuex 提供数据驱动
-- [Vuex](http://vuex.vuejs.org/) - 使用 Vuex 提供数据驱动
 - [Vue Router](https://router.vuejs.org/) - 使用 Vue Router 提供路由功能
 - [vue-meta](https://github.com/nuxt/vue-meta) - 使用 Vue Meta 完成页面标题、关键字、描述的设定
 - [axios](https://github.com/axios/axios) - 提供接口请求
