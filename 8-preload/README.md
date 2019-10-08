@@ -1,4 +1,4 @@
-# 使用 Vue Router + Vue Meta 实现 SEO 需求
+# 使用 Vue Router + Vuex 实现 Preload 全局数据
 
 ## 思路
 
