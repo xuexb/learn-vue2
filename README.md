@@ -14,7 +14,7 @@
 - [x] [6. 使用 Layout](./6-layout/)
 - [x] [7. 使用 Vue Router + Vue Meta 实现 SEO 需求](./7-seo/)
 - [x] [8. 使用 Vue Router + Vuex 实现 Preload 全局数据](./8-preload/)
-- [ ] [9. 使用 axios 实现接口容错](./9-axios/)
+- [x] [9. 使用 axios 实现接口容错](./9-axios/)
 - [ ] 使用 Mock.js 开发页面
 - [ ] 使用 PreRender 预渲染前端页面
 - [ ] 单元测试
