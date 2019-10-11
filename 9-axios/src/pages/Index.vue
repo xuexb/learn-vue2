@@ -1,6 +1,7 @@
 <template>
   <div class="index">
     <h2>{{ $t('index.title') }}</h2>
+    <my-axios class="pl10 pr10" />
     <my-message class="mt20 mb20 pl10 pr10" />
     <ul>
       <li
@@ -16,11 +17,13 @@
 </template>
 
 <script>
+import MyAxios from '@/components/Axios.vue';
 import MyMessage from '@/components/Message.vue';
 
 export default {
   components: {
     MyMessage,
+    MyAxios,
   },
 };
 </script>
