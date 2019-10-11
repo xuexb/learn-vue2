@@ -70,7 +70,7 @@ export const options = {
 export const error = err => ({
   success: false,
   code: 500,
-  message: '访问出错',
+  message: '访问出错，请稍后重试',
   data: null,
   trace: err.stack ? err.stack : err,
 });

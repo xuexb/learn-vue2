@@ -11,6 +11,7 @@
       <button @click="send({ type: 404 })">404</button>
       <button @click="send({ type: 500 })">500</button>
       <button @click="send({ type: 'error' })">错误的链接</button>
+      <button @click="send({ type: 'image' })">错误的格式</button>
     </div>
     <div>
       <p v-if="loading">loading...</p>
@@ -38,6 +39,7 @@ export default {
         404: '@httpbin/status/404',
         500: '@httpbin/status/500',
         error: 'https://fsdfsdfs',
+        image: '@httpbin/image/png',
       };
 
       this.loading = true;
