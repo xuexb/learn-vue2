@@ -8,6 +8,7 @@
       <button @click="send({ type: 'httpbin-headers' })">@httpbin-headers</button>
       <button @click="send({ type: 'httpbin-params' })">@httpbin-params</button>
       <button @click="send({ type: 'httpbin-response' })">@httpbin-response</button>
+      <button @click="send({ type: 301 })">301</button>
       <button @click="send({ type: 404 })">404</button>
       <button @click="send({ type: 500 })">500</button>
       <button @click="send({ type: 'error' })">错误的链接</button>
@@ -36,6 +37,7 @@ export default {
         'httpbin-headers': '@httpbin-headers/anything',
         'httpbin-params': '@httpbin-params/anything',
         'httpbin-response': '@httpbin-response/anything',
+        301: '@httpbin/status/301',
         404: '@httpbin/status/404',
         500: '@httpbin/status/500',
         error: 'https://fsdfsdfs',
